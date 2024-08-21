@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Kamaz kamaz = new Kamaz(1000, 200, 10);
-        System.out.println(kamaz.Refill(200));
+        User user = new User(10000);
+        user.addCar(new Jeep("Ленд Крузкр"));
+        user.addCar(new Kamaz("Тундра"));
+        user.addCar(new SportCar("Бугати"));
+        user.calculeteServiceCost();
     }
 }

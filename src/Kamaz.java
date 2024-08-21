@@ -1,10 +1,10 @@
-public class Kamaz extends Car{
-    public Kamaz(int size, int mileage,int sizeTank){
-    super(size,mileage,sizeTank);
+public class Kamaz extends Car {
+    public Kamaz(String name) {
+        super(name, 150, 3800, 15);
     }
 
     @Override
-    public int Refill(int sizeTank) {
-        return sizeTank*fuel.get(98);
+    public int refill() {
+        return getSizeTank() * fuel.get(95);
     }
 }

@@ -1,11 +1,11 @@
 public class SportCar extends Car {
-    public SportCar(int size, int mileage,int sizeTank){
-        super(size,mileage,sizeTank);
+    public SportCar(String name) {
+        super(name, 30, 1000, 5);
     }
 
     @Override
-    public int Refill(int sizeTank) {
-        return sizeTank*fuel.get(100);
+    public int refill() {
+        return getSizeTank() * fuel.get(98);
     }
 
 }
