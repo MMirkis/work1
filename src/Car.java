@@ -18,4 +18,13 @@ public abstract class Car {
         fuel.put(100,300);
     }
 
+     public int Washing (int size){
+        return size*1000;
+
+    }
+
+    public int TO (int mileage){
+        return mileage*500;
+    }
+    public abstract int Refill(int sizeTank);
 }
