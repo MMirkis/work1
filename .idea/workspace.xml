@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbc55d-dd46-4030-9243-98013cbc9da8" name="Changes" comment="l">
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    <list default="true" id="a6bbc55d-dd46-4030-9243-98013cbc9da8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jeep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jeep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kamaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kamaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SportCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724211158332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Программа готова">
+      <option name="closed" value="true" />
+      <created>1724278209323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724278209323</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +116,7 @@
     <MESSAGE value="Написал поля для абстрактного класса и пошел спать. Литра кофе мало,ебаный гит" />
     <MESSAGE value="Написал скелет для бибик" />
     <MESSAGE value="l" />
-    <option name="LAST_COMMIT_MESSAGE" value="l" />
+    <MESSAGE value="Программа готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="Программа готова" />
   </component>
 </project>
