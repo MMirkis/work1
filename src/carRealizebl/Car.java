@@ -1,5 +1,8 @@
+package carRealizebl;
+
 import java.util.HashMap;
 import java.util.Map;
+
 
 public abstract class Car {
     private String name;
@@ -28,8 +31,6 @@ public abstract class Car {
         return mileage * 5;
     }
 
-    public abstract int refill();
-
     public String getName() {
         return name;
     }
@@ -37,4 +38,16 @@ public abstract class Car {
     public int getSizeTank() {
         return sizeTank;
     }
+
+    public int getMileage() {
+        return mileage;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+
+    public abstract int getPetrol();
+
 }
