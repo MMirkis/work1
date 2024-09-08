@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbc55d-dd46-4030-9243-98013cbc9da8" name="Changes" comment="">
+    <list default="true" id="a6bbc55d-dd46-4030-9243-98013cbc9da8" name="Changes" comment="На сегодня все,выкидывает ошибку nullpointerexception">
+      <change afterPath="$PROJECT_DIR$/src/Massenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handler/MachineHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler/MachineHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicesRealizebl/Refill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicesRealizebl/Refill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicesRealizebl/TO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicesRealizebl/TO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicesRealizebl/Washing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicesRealizebl/Washing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +22,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="branch2" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="mihat &lt;mihateluk@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="af494b71f168bbfae605371129ee418954bdbb56" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,7 +70,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2knhkcbs0lF0B4mqids82Z4EWTn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,10 +81,13 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;branch2&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,23 +131,26 @@
       <option name="project" value="LOCAL" />
       <updated>1724211158332</updated>
     </task>
-    <task id="LOCAL-00005" summary="Программа готова">
-      <option name="closed" value="true" />
-      <created>1724278209323</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724278209323</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ura?" />
     <MESSAGE value="Написал поля для абстрактного класса и пошел спать. Литра кофе мало,ебаный гит" />
     <MESSAGE value="Написал скелет для бибик" />
     <MESSAGE value="l" />
-    <MESSAGE value="Программа готова" />
-    <option name="LAST_COMMIT_MESSAGE" value="Программа готова" />
+    <MESSAGE value="На сегодня все,выкидывает ошибку nullpointerexception" />
+    <option name="LAST_COMMIT_MESSAGE" value="На сегодня все,выкидывает ошибку nullpointerexception" />
   </component>
 </project>
