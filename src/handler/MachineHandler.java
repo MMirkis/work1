@@ -9,6 +9,10 @@ import java.util.List;
 public class MachineHandler {
     List<ServicesRealise> services;
 
+    public  MachineHandler(List<ServicesRealise> services){
+        this.services=services;
+    }
+
     public void calculateServiceCost(User user, CalculateService request){
         for (ServicesRealise services: services){
             if (services.isApplicable(request)){

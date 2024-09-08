@@ -9,7 +9,7 @@ public class User {
     private int balance;
     private List<Car> cars;
 
-    public User(int balace, List<Car> cars) {
+    public User(int balance, List<Car> cars) {
         this.balance = balance;
         this.cars = cars;
     }
@@ -45,6 +45,12 @@ public class User {
         return balance;
     }
 
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+    public void  deductBalance(int amount){
+        this.balance-=amount;
+    }
 
 }
 

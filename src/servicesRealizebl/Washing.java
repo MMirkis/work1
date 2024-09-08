@@ -20,8 +20,8 @@ public class Washing implements ServicesRealise {
         if (balance < result) {
             System.out.println("Недостаточно средств.Пополните баланс");
         } else {
-            balance -= result;
-            System.out.println("Услуга оплачена остаток на счете: " + balance + " p");
+            user.deductBalance(result);
+            System.out.println("Услуга оплачена остаток на счете: " + user.getBalance()+ " p");
         }
     }
 }
